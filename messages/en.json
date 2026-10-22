@@ -1,54 +1,59 @@
 {
   "meta": {
+    "root": {
+      "siteName": "ZIMAM Electrical Company",
+      "description": "ZIMAM Electrical Company (ZELCOSA) is an MEP, ELV, Telecom and Civil contractor based in Riyadh, Saudi Arabia, serving projects across the Kingdom.",
+      "ogImageAlt": "ZIMAM Electrical Company — Engineering Excellence in Modern Infrastructure"
+    },
     "home": {
       "title": "ZIMAM Electrical Company | MEP, ELV & Civil Contractor in Riyadh",
-      "description": "ZIMAM Electrical Company (ZELCOSA) is a Riyadh-based MEP contractor delivering Electrical, Mechanical, Plumbing, ELV, Telecom and Civil solutions across Saudi Arabia."
+      "description": "ZIMAM Electrical Company (ZELCOSA), Riyadh, Saudi Arabia: Electrical, Mechanical, Plumbing, ELV, Telecom and Civil contracting delivered across the Kingdom."
     },
     "about": {
-      "title": "About ZIMAM | MEP, ELV & Civil Contractor in Riyadh",
-      "description": "Learn about ZIMAM Electrical Company (ZELCOSA): our vision, mission, core values, chairman's message and management structure."
+      "title": "About Us",
+      "description": "Learn about ZIMAM Electrical Company in Riyadh, Saudi Arabia: our vision, mission, core values, chairman's message and company registration details."
     },
     "services": {
-      "title": "Services | Electrical, ELV, Mechanical & Civil | ZIMAM",
-      "description": "Four divisions under one accountable team: Electrical, ELV & Telecom, Mechanical (HVAC, fire fighting, plumbing) and Civil contracting across Saudi Arabia."
+      "title": "Services: Electrical, ELV, Mechanical & Civil",
+      "description": "ZIMAM's four divisions in Riyadh, Saudi Arabia: Electrical, ELV & Telecom, Mechanical (HVAC, fire fighting, plumbing) and Civil contracting."
     },
     "divisions": {
       "electrical": {
-        "title": "Electrical Division | Power Distribution Contractor in Riyadh | ZIMAM",
-        "description": "EHV, HV and LV cabling, panels and switchgear, transformers, lighting, earthing, testing and commissioning by ZIMAM Electrical Company."
+        "title": "Electrical Division",
+        "description": "Electrical contracting in Riyadh, Saudi Arabia: EHV, HV and LV cabling, panels and switchgear, transformers, lighting, earthing, testing and commissioning."
       },
       "elv-telecom": {
-        "title": "ELV & Telecom Division | Network & Security Systems | ZIMAM",
-        "description": "Structured cabling, fiber optics, telecom towers, CCTV, access control, PA, intercom and IPTV systems by ZIMAM Electrical Company."
+        "title": "ELV & Telecom Division",
+        "description": "ELV and telecom contractor in Riyadh, Saudi Arabia: structured cabling, fiber optics, telecom towers, CCTV, access control, PA, intercom and IPTV systems."
       },
       "mechanical": {
-        "title": "Mechanical Division | HVAC, Fire Fighting & Plumbing | ZIMAM",
-        "description": "HVAC, fire fighting and plumbing installation, testing, commissioning and maintenance by ZIMAM Electrical Company."
+        "title": "Mechanical Division",
+        "description": "Mechanical contractor in Riyadh, Saudi Arabia: HVAC, fire fighting and plumbing installation, testing, commissioning and maintenance by ZIMAM."
       },
       "civil": {
-        "title": "Civil Division | Construction & Finishing Works | ZIMAM",
-        "description": "Construction, infrastructure support, finishing and building maintenance works by ZIMAM Electrical Company."
+        "title": "Civil Division",
+        "description": "Civil contractor in Riyadh, Saudi Arabia: construction, infrastructure support, finishing works and building maintenance delivered by ZIMAM."
       }
     },
     "projects": {
-      "title": "Projects | ZIMAM Electrical Company",
-      "description": "Selected MEP, electrical, mechanical and civil projects delivered by ZIMAM Electrical Company across Riyadh, Makkah and Diriyah."
+      "title": "Projects",
+      "description": "Selected electrical, ELV, mechanical and civil projects delivered by ZIMAM Electrical Company from Riyadh, Saudi Arabia, including Makkah and Diriyah."
     },
     "clients": {
-      "title": "Clients, Contractors & Partners | ZIMAM",
-      "description": "The developers, contractors and organizations ZIMAM Electrical Company works with across the Kingdom."
+      "title": "Clients, Contractors & Partners",
+      "description": "The developers, main contractors and organizations ZIMAM Electrical Company works with from Riyadh, Saudi Arabia, on MEP, ELV and civil projects."
     },
     "gallery": {
-      "title": "Site Gallery | ZIMAM Electrical Company",
-      "description": "Photos from ZIMAM sites: electrical, ELV & telecom, mechanical and civil works."
+      "title": "Site Gallery",
+      "description": "Photos from ZIMAM sites in Saudi Arabia: electrical, ELV and telecom, mechanical and civil works by our Riyadh-based team."
     },
     "quality": {
-      "title": "Quality & HSE | ZIMAM Electrical Company",
-      "description": "ZIMAM's Safety First, Quality, HR and Technical Team Development policies."
+      "title": "Quality & HSE",
+      "description": "ZIMAM Electrical Company's Safety First, Quality, HR and Technical Team Development policies, applied on every site from Riyadh, Saudi Arabia."
     },
     "contact": {
-      "title": "Contact & Request a Quote | ZIMAM Electrical Company",
-      "description": "Contact ZIMAM Electrical Company in Riyadh or request a quote for your Electrical, ELV, Mechanical or Civil project."
+      "title": "Contact & Request a Quote",
+      "description": "Contact ZIMAM Electrical Company in Riyadh, Saudi Arabia, or request a quote for your Electrical, ELV, Telecom, Mechanical or Civil project."
     }
   },
   "common": {
@@ -450,6 +455,7 @@
   },
   "projectsPage": {
     "filtersLabel": "Filter projects",
+  "listHeading": "Our projects",
     "filters": {
       "all": "All",
       "electrical": "Electrical",

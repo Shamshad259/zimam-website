@@ -80,11 +80,11 @@ export function Footer() {
             <li className="flex gap-3">
               <Phone aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-signal" />
               <span className="flex flex-col">
-                <a href={`tel:${site.phone.tel}`} className="hover:text-white">
+                <a href={`tel:${site.phone.tel}`} className="inline-flex min-h-6 items-center hover:text-white">
                   <bdi dir="ltr">{site.phone.display}</bdi>
                 </a>
                 {site.mobiles.map((m) => (
-                  <a key={m.tel} href={`tel:${m.tel}`} className="hover:text-white">
+                  <a key={m.tel} href={`tel:${m.tel}`} className="inline-flex min-h-6 items-center hover:text-white">
                     <bdi dir="ltr">{m.display}</bdi>
                   </a>
                 ))}
@@ -92,7 +92,7 @@ export function Footer() {
             </li>
             <li className="flex gap-3">
               <Mail aria-hidden="true" className="mt-0.5 size-4 shrink-0 text-signal" />
-              <a href={`mailto:${site.email}`} className="hover:text-white">
+              <a href={`mailto:${site.email}`} className="inline-flex min-h-6 items-center hover:text-white">
                 {site.email}
               </a>
             </li>

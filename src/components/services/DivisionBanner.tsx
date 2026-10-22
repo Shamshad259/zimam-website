@@ -18,7 +18,7 @@ export function DivisionBanner({ division }: { division: Division }) {
       <ZimamWatermark className="-bottom-6 inset-s-0 text-[20vw]" />
       <Container className="grid items-center gap-10 pt-16 pb-14 lg:grid-cols-2 lg:py-0">
         <div className="max-w-xl">
-          <p className="font-heading text-sm font-bold uppercase tracking-[0.25em] text-signal rtl:tracking-normal">
+          <p className="font-heading text-sm font-bold uppercase tracking-[0.25em] text-signal-light rtl:tracking-normal">
             {p("bannerLabel", { number: division.number })}
           </p>
           <h1 className="mt-4 font-heading text-4xl font-extrabold uppercase leading-tight tracking-tight sm:text-5xl rtl:tracking-normal">
@@ -37,7 +37,8 @@ export function DivisionBanner({ division }: { division: Division }) {
                 src={src}
                 alt=""
                 fill
-                priority={i === 1}
+                preload={i === 1}
+                fetchPriority={i === 1 ? "high" : undefined}
                 sizes="(min-width: 1024px) 20vw, 33vw"
                 className="object-cover"
               />

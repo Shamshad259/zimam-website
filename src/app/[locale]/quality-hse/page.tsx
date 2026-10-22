@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/quality-hse">) {
   const { locale } = await params;
-  return pageMetadata(locale, "quality");
+  return pageMetadata(locale, "quality", "/quality-hse");
 }
 
 export default function QualityHsePage() {

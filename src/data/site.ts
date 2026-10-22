@@ -35,3 +35,30 @@ export const getAddress = (locale: string) => address[locale] ?? address.en;
 
 export const whatsappUrl = (text: string) =>
   `https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(text)}`;
+
+/** Canonical production origin. Every canonical, sitemap and JSON-LD URL is built from this. */
+export const siteUrl = "https://zelcosa.com";
+
+/**
+ * Locales that are live and indexable. Locales not listed here get robots
+ * noindex/nofollow and are left out of the sitemap and hreflang. Add "ar" here
+ * when the Arabic content is ready (one-line switch).
+ */
+export const readyLocales: readonly string[] = ["en"];
+
+/** Structured address for JSON-LD (same location as `address`). */
+export const addressParts = {
+  streetAddress: "Floor 2, RHGA7630, King Abdulaziz Rd, Al Murooj",
+  locality: "Riyadh",
+  postalCode: "12282",
+  country: "SA",
+} as const;
+
+export const companyNameAr = "شركة زمام للكهرباء";
+
+/** Working hours (Sunday–Thursday), mirrored in messages `contact.hoursValue`. */
+export const openingHours = {
+  days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+  opens: "08:00",
+  closes: "18:00",
+} as const;

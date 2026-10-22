@@ -1,4 +1,4 @@
-import type { Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import { IBM_Plex_Sans_Arabic, Inter, Montserrat } from "next/font/google";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
@@ -11,8 +11,12 @@ import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
 import { TopBar } from "@/components/layout/TopBar";
 import { WhatsAppButton } from "@/components/layout/WhatsAppButton";
+import { JsonLd } from "@/components/seo/JsonLd";
 import { MotionProvider } from "@/components/ui/MotionProvider";
+import { siteUrl } from "@/data/site";
 import { localeDirection, routing } from "@/i18n/routing";
+import { isReadyLocale, ogImage, ogLocale } from "@/lib/seo";
+import { organizationJsonLd } from "@/lib/structured-data";
 import "../globals.css";
 
 const montserrat = Montserrat({
@@ -30,6 +34,24 @@ const plexArabic = IBM_Plex_Sans_Arabic({
 });
 
 export const viewport: Viewport = { themeColor: "#0a0a4f" };
+
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await rootLocale();
+  const t = await getTranslations({ locale, namespace: "meta.root" });
+  return {
+    metadataBase: new URL(siteUrl),
+    title: { default: t("siteName"), template: `%s | ${t("siteName")}` },
+    description: t("description"),
+    robots: isReadyLocale(locale) ? undefined : { index: false, follow: false },
+    openGraph: {
+      type: "website",
+      siteName: t("siteName"),
+      locale: ogLocale(locale),
+      images: [{ ...ogImage, alt: t("ogImageAlt") }],
+    },
+    twitter: { card: "summary_large_image", images: [{ url: ogImage.url, alt: t("ogImageAlt") }] },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -49,6 +71,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[locale]">)
       className={`${montserrat.variable} ${inter.variable} ${plexArabic.variable}`}
     >
       <body>
+        <JsonLd data={organizationJsonLd(t("companyName"))} />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <MotionProvider>
             <a

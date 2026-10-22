@@ -26,6 +26,7 @@ export function ProjectsExplorer() {
   return (
     <section className="bg-mist py-16 lg:py-24">
       <Container>
+        <h2 className="sr-only">{t("listHeading")}</h2>
         <div role="group" aria-label={t("filtersLabel")} className="flex flex-wrap gap-2">
           {filters.map((id) => (
             <button

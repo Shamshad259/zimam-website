@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 // All four division pages share DivisionTemplate and are driven by src/data/services.ts.
 export async function generateMetadata({ params }: PageProps<"/[locale]/services/elv-telecom">) {
   const { locale } = await params;
-  return pageMetadata(locale, "divisions.elv-telecom");
+  return pageMetadata(locale, "divisions.elv-telecom", "/services/elv-telecom");
 }
 
 export default function ElvTelecomDivisionPage() {

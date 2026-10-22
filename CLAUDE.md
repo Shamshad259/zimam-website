@@ -79,3 +79,22 @@
   `<Suspense>` (with a skeleton fallback) and call `notFound()` for unknown values. This
   makes the page only partially static (header and body stream in).
 - Reading `locale` in `generateMetadata` is fine.
+
+## SEO rules
+
+- Production origin is `https://zelcosa.com` (`siteUrl` in `src/data/site.ts`). Canonicals, OG urls,
+  sitemap and JSON-LD always use it (via `metadataBase`), even on vercel.app copies.
+- **`readyLocales` in `src/data/site.ts` is the Arabic switch.** Only listed locales are indexable
+  and appear in the sitemap and hreflang; any other locale gets robots noindex/nofollow.
+  To launch Arabic: add `"ar"` to `readyLocales` (and to `routing.locales`, with `messages/ar.json`
+  including the `meta` namespace and `site.ts` address `ar`).
+- Page metadata: every page's `generateMetadata` calls `pageMetadata(locale, key, path)`
+  (`src/lib/metadata.ts`), text from `messages/*.json` `meta.<key>`. Titles are short (the layout
+  template adds " | ZIMAM Electrical Company"); descriptions ~150-160 chars, factual, include
+  "Riyadh, Saudi Arabia". A new page needs: a `meta` entry, its path in `mainNav`
+  (`src/data/navigation.ts`, feeds the sitemap via `src/data/routes.ts`).
+- JSON-LD comes from `src/lib/structured-data.ts` (data from `site.ts` only): sitewide
+  Organization + GeneralContractor in the layout, Service on division pages. Never add geo,
+  ratings, reviews or invented facts.
+- Share image: static `public/og/zimam-og.png` (1200x630), regenerate with `scripts/og/`.
+- One h1 per page, no skipped heading levels, decorative images `alt=""`, content images meaningful alt.

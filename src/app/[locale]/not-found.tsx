@@ -1,8 +1,11 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { RedAccentLine } from "@/components/ui/RedAccentLine";
 import { ZimamWatermark } from "@/components/ui/ZimamWatermark";
+
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 export default function NotFound() {
   const t = useTranslations("notFound");
@@ -16,7 +19,7 @@ export default function NotFound() {
       />
       <ZimamWatermark className="-bottom-10 inset-s-0 text-[26vw]" />
       <Container>
-        <p className="font-heading text-sm font-bold uppercase tracking-[0.3em] text-signal rtl:tracking-normal">
+        <p className="font-heading text-sm font-bold uppercase tracking-[0.3em] text-signal-light rtl:tracking-normal">
           {t("label")}
         </p>
         <h1 className="mt-4 font-heading text-4xl font-extrabold uppercase leading-tight sm:text-6xl rtl:tracking-normal">

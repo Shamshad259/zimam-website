@@ -5,6 +5,8 @@
   --color-royal: #00008b;
   --color-signal: #e30613;
   --color-signal-dark: #b8040f;
+  /* Brand red lightened for small text on navy (4.5:1+ contrast); #e30613 is only 3.7:1 there. */
+  --color-signal-light: #ff5c66;
   --color-mist: #f2f3f8;
   --color-ink: #1a1a2e;
   --color-muted: #5a5f7a;

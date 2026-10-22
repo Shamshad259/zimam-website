@@ -30,7 +30,8 @@ export function DiagonalHero({
           src={image}
           alt={alt}
           fill
-          priority={priority}
+          preload={priority}
+          fetchPriority={priority ? "high" : undefined}
           sizes="(min-width: 1024px) 75vw, 100vw"
           className="object-cover"
         />

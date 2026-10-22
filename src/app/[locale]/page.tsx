@@ -1,5 +1,3 @@
-import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
 import { ChairmanQuote } from "@/components/home/ChairmanQuote";
 import { ClientsStrip } from "@/components/home/ClientsStrip";
 import { DivisionsSection } from "@/components/home/DivisionsSection";
@@ -8,11 +6,11 @@ import { HomeHero } from "@/components/home/HomeHero";
 import { SectorsSection } from "@/components/home/SectorsSection";
 import { WelcomeSection } from "@/components/home/WelcomeSection";
 import { WhyChoose } from "@/components/home/WhyChoose";
+import { pageMetadata } from "@/lib/metadata";
 
-export async function generateMetadata({ params }: PageProps<"/[locale]">): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps<"/[locale]">) {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "meta.home" });
-  return { title: t("title"), description: t("description") };
+  return pageMetadata(locale, "home", "/", { absoluteTitle: true });
 }
 
 export default function HomePage() {

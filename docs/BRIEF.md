@@ -539,6 +539,14 @@ full-width map section, or CR/VAT numbers (those stay in the footer only).
 - Custom 404 page in brand style.
 - Keep services, projects and clients in separate editable data files.
 
+Implementation (SEO phase, live at https://zelcosa.com):
+- `siteUrl` and `readyLocales` live in src/data/site.ts. `readyLocales` is the Arabic switch:
+  locales not listed are noindex/nofollow and left out of sitemap and hreflang. Add "ar" to go live.
+- Metadata per page from messages `meta.*` via src/lib/metadata.ts; canonical + hreflang (+ x-default
+  to /en), Open Graph and Twitter summary_large_image on every page; 404 is noindex.
+- Share image: public/og/zimam-og.png (1200x630, generated from scripts/og/).
+- app/sitemap.ts, app/robots.ts, app/manifest.ts; JSON-LD in src/lib/structured-data.ts.
+
 ====================================================================
 
 ## 8. BUILD ORDER

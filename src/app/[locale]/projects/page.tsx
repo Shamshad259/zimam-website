@@ -5,7 +5,7 @@ import { pageMetadata } from "@/lib/metadata";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/projects">) {
   const { locale } = await params;
-  return pageMetadata(locale, "projects");
+  return pageMetadata(locale, "projects", "/projects");
 }
 
 export default function ProjectsPage() {

@@ -6,7 +6,7 @@ import { pageMetadata } from "@/lib/metadata";
 // All four division pages share DivisionTemplate and are driven by src/data/services.ts.
 export async function generateMetadata({ params }: PageProps<"/[locale]/services/mechanical">) {
   const { locale } = await params;
-  return pageMetadata(locale, "divisions.mechanical");
+  return pageMetadata(locale, "divisions.mechanical", "/services/mechanical");
 }
 
 export default function MechanicalDivisionPage() {

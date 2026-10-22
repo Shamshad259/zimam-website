@@ -69,7 +69,7 @@ function SelectControl({ id, placeholder, children }: { id: string; placeholder:
         className={cn(
           control,
           controlOk,
-          "h-12 appearance-none pe-10 [&:has(option[value='']:checked)]:text-slate-400",
+          "h-12 appearance-none pe-10 [&:has(option[value='']:checked)]:text-muted",
         )}
       >
         <option value="">{placeholder}</option>

@@ -1,8 +1,11 @@
 import { ArrowDownRight, Phone } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { projects } from "@/data/projects";
 import type { Division } from "@/data/services";
 import { site } from "@/data/site";
+import { JsonLd } from "@/components/seo/JsonLd";
+import { absoluteUrl, localePath } from "@/lib/seo";
+import { serviceJsonLd } from "@/lib/structured-data";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { HexCheckList } from "@/components/ui/HexCheckList";
@@ -14,7 +17,9 @@ import { DivisionBanner } from "./DivisionBanner";
 /** Shared template for all four division pages, driven by src/data/services.ts. */
 export function DivisionTemplate({ division }: { division: Division }) {
   const { slug } = division;
+  const locale = useLocale();
   const s = useTranslations(`services.${slug}`);
+  const meta = useTranslations(`meta.divisions.${slug}`);
   const p = useTranslations("divisionPage");
   const nav = useTranslations("nav");
   const proj = useTranslations("projects");
@@ -24,6 +29,13 @@ export function DivisionTemplate({ division }: { division: Division }) {
 
   return (
     <>
+      <JsonLd
+        data={serviceJsonLd({
+          name: meta("title"),
+          description: meta("description"),
+          url: absoluteUrl(localePath(locale, `/services/${slug}`)),
+        })}
+      />
       <DivisionBanner division={division} />
 
       <section className="bg-white py-16 lg:py-20">
