@@ -1,0 +1,597 @@
+{
+  "meta": {
+    "home": {
+      "title": "ZIMAM Electrical Company | MEP, ELV & Civil Contractor in Riyadh",
+      "description": "ZIMAM Electrical Company (ZELCOSA) is a Riyadh-based MEP contractor delivering Electrical, Mechanical, Plumbing, ELV, Telecom and Civil solutions across Saudi Arabia."
+    },
+    "about": {
+      "title": "About ZIMAM | MEP, ELV & Civil Contractor in Riyadh",
+      "description": "Learn about ZIMAM Electrical Company (ZELCOSA): our vision, mission, core values, chairman's message and management structure."
+    },
+    "services": {
+      "title": "Services | Electrical, ELV, Mechanical & Civil | ZIMAM",
+      "description": "Four divisions under one accountable team: Electrical, ELV & Telecom, Mechanical (HVAC, fire fighting, plumbing) and Civil contracting across Saudi Arabia."
+    },
+    "divisions": {
+      "electrical": {
+        "title": "Electrical Division | Power Distribution Contractor in Riyadh | ZIMAM",
+        "description": "EHV, HV and LV cabling, panels and switchgear, transformers, lighting, earthing, testing and commissioning by ZIMAM Electrical Company."
+      },
+      "elv-telecom": {
+        "title": "ELV & Telecom Division | Network & Security Systems | ZIMAM",
+        "description": "Structured cabling, fiber optics, telecom towers, CCTV, access control, PA, intercom and IPTV systems by ZIMAM Electrical Company."
+      },
+      "mechanical": {
+        "title": "Mechanical Division | HVAC, Fire Fighting & Plumbing | ZIMAM",
+        "description": "HVAC, fire fighting and plumbing installation, testing, commissioning and maintenance by ZIMAM Electrical Company."
+      },
+      "civil": {
+        "title": "Civil Division | Construction & Finishing Works | ZIMAM",
+        "description": "Construction, infrastructure support, finishing and building maintenance works by ZIMAM Electrical Company."
+      }
+    },
+    "projects": {
+      "title": "Projects | ZIMAM Electrical Company",
+      "description": "Selected MEP, electrical, mechanical and civil projects delivered by ZIMAM Electrical Company across Riyadh, Makkah and Diriyah."
+    },
+    "clients": {
+      "title": "Clients, Contractors & Partners | ZIMAM",
+      "description": "The developers, contractors and organizations ZIMAM Electrical Company works with across the Kingdom."
+    },
+    "gallery": {
+      "title": "Site Gallery | ZIMAM Electrical Company",
+      "description": "Photos from ZIMAM sites: electrical, ELV & telecom, mechanical and civil works."
+    },
+    "quality": {
+      "title": "Quality & HSE | ZIMAM Electrical Company",
+      "description": "ZIMAM's Safety First, Quality, HR and Technical Team Development policies."
+    },
+    "contact": {
+      "title": "Contact & Request a Quote | ZIMAM Electrical Company",
+      "description": "Contact ZIMAM Electrical Company in Riyadh or request a quote for your Electrical, ELV, Mechanical or Civil project."
+    }
+  },
+  "common": {
+    "companyName": "ZIMAM Electrical Company",
+    "logoAlt": "ZIMAM Electrical Company logo",
+    "skipToContent": "Skip to main content",
+    "requestQuote": "Request a Quote",
+    "explore": "Explore",
+    "viewAllProjects": "View All Projects",
+    "viewAllClients": "View All Clients",
+    "aboutUs": "About Us",
+    "ourServices": "Our Services",
+    "division": "Division",
+    "location": "Riyadh, KSA",
+    "callUs": "Call us"
+  },
+  "topBar": {
+    "language": "Language",
+    "english": "EN",
+    "arabic": "العربية",
+    "arabicSoon": "Arabic version coming soon"
+  },
+  "nav": {
+    "label": "Main navigation",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "clients": "Clients",
+    "quality": "Quality & HSE",
+    "contact": "Contact",
+    "electrical": "Electrical",
+    "elv-telecom": "ELV & Telecom",
+    "mechanical": "Mechanical",
+    "civil": "Civil",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "toggleServices": "Show services"
+  },
+  "divisions": {
+    "electrical": {
+      "title": "Electrical Division",
+      "summary": "Complete power distribution and electrical infrastructure, from EHV cabling to testing and commissioning.",
+      "imageAlt": "Corridor of an electrical switchgear room with panels and cable trays"
+    },
+    "elv-telecom": {
+      "title": "ELV & Telecom Division",
+      "pageTitle": "ELV, Network & Telecom Systems Division",
+      "summary": "Low-current, network, security and communication systems for modern and smart buildings.",
+      "imageAlt": "Bundles of blue network cables running into a patch panel"
+    },
+    "mechanical": {
+      "title": "Mechanical Division",
+      "summary": "HVAC, fire fighting and plumbing systems delivered to international standards.",
+      "imageAlt": "HVAC ductwork and pipework inside a building"
+    },
+    "civil": {
+      "title": "Civil Division",
+      "summary": "Construction, finishing and infrastructure support works.",
+      "imageAlt": "Construction site with cranes at dusk"
+    }
+  },
+  "services": {
+    "electrical": {
+      "description": "Our Electrical Division delivers complete power distribution and electrical infrastructure solutions for industrial, commercial, residential and utility projects. We specialize in the installation, testing, commissioning and maintenance of electrical systems, ensuring safe, reliable and efficient power delivery.",
+      "items": {
+        "cableInstallation": "EHV, HV and LV Cable Installation",
+        "panelsSwitchgear": "Electrical Panels and Switchgear Installation",
+        "busbar": "Busbar Installation",
+        "transformer": "Transformer Installation",
+        "smallPower": "Small Power Installation",
+        "lighting": "Internal and External Lighting Installation",
+        "streetLighting": "Street Lighting Installation",
+        "glanding": "Cable Glanding and Termination",
+        "controlCabling": "Control and Instrumentation Cabling",
+        "earthing": "Earthing and Lightning Protection Systems",
+        "testing": "Testing, Commissioning and Maintenance"
+      }
+    },
+    "elv-telecom": {
+      "description": "Our ELV & Network Systems Division provides advanced low-current and communication infrastructure solutions for commercial, industrial, residential and critical facilities. We deliver reliable, secure and future-ready systems that support modern business operations and smart building requirements.",
+      "items": {
+        "structuredCabling": "Structured Cabling and Network Solutions",
+        "fiberOptic": "Data and Fiber Optic Cabling Systems",
+        "telecomTower": "Telecom Tower Installation Works",
+        "cctv": "CCTV and Surveillance Systems",
+        "accessControl": "Access Control Systems",
+        "securityMonitoring": "Security and Monitoring Solutions",
+        "publicAddress": "Public Address (PA) Systems",
+        "intercom": "Intercom Systems",
+        "smatvIptv": "SMATV and IPTV Systems",
+        "telephone": "Telephone and Communication Systems",
+        "testing": "Testing, Commissioning and Maintenance"
+      }
+    },
+    "mechanical": {
+      "description": "Our Mechanical Division provides comprehensive solutions for HVAC, Fire Fighting and Plumbing systems for commercial, industrial, residential and infrastructure projects. We deliver complete design support, installation, testing, commissioning and maintenance services in compliance with international standards and project specifications.",
+      "groups": {
+        "hvac": "HVAC",
+        "fireFighting": "Fire Fighting",
+        "plumbing": "Plumbing"
+      },
+      "items": {
+        "hvac": "Heating, Ventilation and Air Conditioning (HVAC) Systems",
+        "chilledWaterDx": "Chilled Water and DX Air Conditioning Systems",
+        "ventilationExhaust": "Ventilation and Exhaust Systems",
+        "firePumpsSprinkler": "Fire Pumps, Sprinkler and Hydrant Systems",
+        "fireSuppression": "Fire Suppression Systems",
+        "plumbingDrainage": "Plumbing and Drainage Systems",
+        "waterSupply": "Water Supply and Distribution Networks",
+        "sewageStormwater": "Sewage and Stormwater Systems",
+        "testing": "Testing, Commissioning and Maintenance Services"
+      }
+    },
+    "civil": {
+      "description": "Our Civil Division specializes in construction, finishing and infrastructure support works, delivering high-quality workmanship and efficient project execution. With experienced engineers, supervisors and skilled workers, we ensure projects are completed safely, on schedule and to the highest quality standards.",
+      "groups": {
+        "construction": "Construction & Infrastructure",
+        "finishing": "Finishing & Maintenance"
+      },
+      "items": {
+        "sitePrep": "Site Preparation and Excavation Works",
+        "earthworks": "Earthworks and Backfilling",
+        "concreteFoundation": "Concrete and Foundation Works",
+        "masonry": "Masonry and Brickwork",
+        "blockwork": "Block Work Construction",
+        "roadsPavement": "Road and Pavement Works",
+        "plastering": "Plastering and Rendering Works",
+        "gypsum": "Gypsum Partition and Ceiling Works",
+        "tiling": "Floor and Wall Tile Installation",
+        "marbleGranite": "Marble and Granite Works",
+        "painting": "Interior and Exterior Painting Works",
+        "waterproofing": "Waterproofing Applications",
+        "buildingMaintenance": "General Building Maintenance and Renovation"
+      }
+    }
+  },
+  "projects": {
+    "photoPlaceholder": "Site photo coming soon",
+    "tags": {
+      "electrical": "Electrical",
+      "mechanical": "Mechanical",
+      "plumbing": "Plumbing",
+      "mep": "MEP",
+      "dataCenter": "Data Center",
+      "hospitality": "Hospitality",
+      "entertainment": "Entertainment",
+      "residential": "Residential",
+      "industrial": "Industrial",
+      "education": "Education"
+    },
+    "items": {
+      "stc-data-center": {
+        "title": "STC Data Center",
+        "location": "Al Rawabi, Riyadh",
+        "scope": "Electrical installation works."
+      },
+      "haram-makkah": {
+        "title": "Haram Makkah Projects",
+        "location": "Makkah",
+        "scope": "Electrical and HVAC installation works."
+      },
+      "raffles-diriyah": {
+        "title": "Raffles Hotel",
+        "location": "Diriyah",
+        "scope": "Electrical and plumbing installation works."
+      },
+      "seven-riyadh": {
+        "title": "SEVEN (Saudi Entertainment Ventures)",
+        "location": "Riyadh",
+        "scope": "Cable installation, panel erection, testing and commissioning works."
+      },
+      "private-villas": {
+        "title": "Private Villa Projects",
+        "location": "Riyadh",
+        "scope": "Executed in collaboration with Gulf Speaking Contracting Company."
+      },
+      "warehouses": {
+        "title": "Warehouse Projects",
+        "scope": "Executed for Nexify Logistics."
+      },
+      "kidzone-school": {
+        "title": "KidZone School Renovation",
+        "location": "Ar Rabi District, Riyadh",
+        "scope": "Complete MEP (Mechanical, Electrical and Plumbing) works."
+      }
+    }
+  },
+  "clients": {
+    "items": {
+      "seven": "SEVEN — Saudi Entertainment Ventures",
+      "elite": "Elite Infrastructure & Technology",
+      "hapco": "HAPCO",
+      "kidzink": "Kidzink",
+      "nhc": "NHC — Noura Hamdan Al Subaie General Contracting Co.",
+      "multicoat": "Multicoat",
+      "shapoorji-pallonji": "Shapoorji Pallonji",
+      "concrete-plus": "Concrete Plus",
+      "dmcc": "DMCC — Doha Modern Contracting Company",
+      "acme": "ACME Network Services (Telecommunication & Energy)",
+      "al-azaem": "Al Azaem"
+    }
+  },
+  "header": {
+    "logoLink": "ZIMAM Electrical Company, home"
+  },
+  "whatsapp": {
+    "label": "Chat with us on WhatsApp",
+    "message": "Hello Zimam Electrical, I would like to enquire about a project."
+  },
+  "cta": {
+    "title": "Have a project in mind?",
+    "text": "Tell us your requirements and our engineering team will get back to you with a clear proposal."
+  },
+  "footer": {
+    "description": "Professional MEP contracting company providing Electrical, Mechanical, Plumbing, ELV, Telecom and Civil solutions across Saudi Arabia.",
+    "crLabel": "CR",
+    "vatLabel": "VAT",
+    "quickLinks": "Quick Links",
+    "ourDivisions": "Our Divisions",
+    "contactUs": "Contact Us",
+    "viewOnMap": "View on map",
+    "whatsapp": "WhatsApp",
+    "rights": "© 2026 ZIMAM Electrical Company. All rights reserved."
+  },
+  "home": {
+    "hero": {
+      "label": "Riyadh • Kingdom of Saudi Arabia",
+      "title": "Engineering Excellence in Modern Infrastructure",
+      "subtitle": "Electrical, Mechanical, Plumbing, ELV, Telecom and Civil contracting across Saudi Arabia — delivered safely, on time and to the highest industry standards.",
+      "imageAlt": "Riyadh skyline with the Kingdom Centre tower at dusk",
+      "strip": {
+        "electrical": "Electrical",
+        "mechanical": "Mechanical",
+        "telecom": "Telecom",
+        "civil": "Civil Works"
+      }
+    },
+    "welcome": {
+      "label": "Welcome to",
+      "title": "Our Company",
+      "p1": "ZIMAM Electrical Company (ZELCOSA) is a professional MEP contracting company providing Electrical, Mechanical, Plumbing, ELV, Telecom and Civil solutions across Saudi Arabia.",
+      "p2": "We specialize in delivering high-quality, safe and cost-effective services for infrastructure, industrial, commercial and residential projects. With a skilled workforce and commitment to excellence, we ensure every project is completed efficiently, on time and in accordance with the highest industry standards while supporting the goals of Saudi Vision 2030.",
+      "imageAlt": "Engineers in hi-vis vests walking through an industrial electrical hall"
+    },
+    "divisions": {
+      "label": "Our",
+      "title": "Divisions"
+    },
+    "sectors": {
+      "label": "Sectors",
+      "title": "We Serve",
+      "items": {
+        "infrastructure": "Infrastructure",
+        "industrial": "Industrial",
+        "commercial": "Commercial",
+        "residential": "Residential",
+        "utilities": "Utilities",
+        "dataCenters": "Data Centers & Critical Facilities",
+        "hospitality": "Hospitality"
+      }
+    },
+    "projects": {
+      "label": "Featured",
+      "title": "Projects"
+    },
+    "why": {
+      "label": "Why Choose",
+      "title": "Zimam",
+      "items": {
+        "multiDiscipline": {
+          "title": "Multi-Discipline Under One Roof",
+          "text": "Electrical, mechanical, ELV, telecom and civil works managed by one accountable team."
+        },
+        "safetyFirst": {
+          "title": "Safety First",
+          "text": "Strict safety protocols, ongoing training and regular site inspections on every project."
+        },
+        "qualityDriven": {
+          "title": "Quality Driven",
+          "text": "Rigorous quality control, attention to detail and the best materials and practices."
+        },
+        "skilledWorkforce": {
+          "title": "Skilled Workforce",
+          "text": "Experienced engineers, supervisors, foremen and technicians across every discipline."
+        },
+        "kingdomWide": {
+          "title": "Riyadh-Based, Kingdom-Wide",
+          "text": "Locally established with projects across Riyadh, Makkah, Diriyah and beyond."
+        },
+        "vision2030": {
+          "title": "Vision 2030 Partner",
+          "text": "Committed to empowering local talent and supporting the Kingdom's development."
+        }
+      }
+    },
+    "clients": {
+      "label": "Trusted by",
+      "title": "Leading Clients & Contractors"
+    },
+    "chairman": {
+      "label": "Message from our",
+      "title": "Chairman",
+      "quote": "Our vision is to be a leading contracting company in Saudi Arabia, recognized for excellence, innovation and sustainability in delivering infrastructure and development projects.",
+      "attribution": "Chairman, ZIMAM Electrical Company",
+      "readMore": "Read the full message"
+    }
+  },
+  "notFound": {
+    "label": "Error 404",
+    "title": "Page not found",
+    "text": "The page you are looking for does not exist or has been moved.",
+    "home": "Back to Home"
+  },
+  "pageBanner": {
+    "about": {
+      "title": "About Zimam",
+      "imageAlt": "Riyadh skyline with the Kingdom Centre tower in daylight"
+    },
+    "services": {
+      "label": "What we do",
+      "title": "Our Services",
+      "imageAlt": "Corridor of an electrical switchgear room"
+    },
+    "projects": {
+      "label": "Our",
+      "title": "Projects",
+      "imageAlt": "Construction site with cranes at dusk"
+    },
+    "clients": {
+      "label": "Our Major",
+      "title": "Clients, Contractors & Partners",
+      "imageAlt": "Riyadh skyline with the Kingdom Centre tower in daylight"
+    },
+    "gallery": {
+      "label": "Our",
+      "title": "Site Gallery",
+      "imageAlt": "HVAC ductwork and pipework inside a building"
+    },
+    "quality": {
+      "title": "Built on Safety, Quality and Accountability",
+      "imageAlt": "Engineers in hi-vis vests walking through an industrial electrical hall"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "imageAlt": "Riyadh skyline with the Kingdom Centre tower at dusk"
+    }
+  },
+  "about": {
+    "overview": {
+      "label": "Company",
+      "title": "Overview"
+    },
+    "chairman": {
+      "label": "Message from our",
+      "title": "Chairman",
+      "quote": "Our vision is to be a leading contracting company in Saudi Arabia, recognized for excellence, innovation and sustainability in delivering infrastructure and development projects. We aspire to contribute significantly to the Kingdom's Vision 2030 by driving progress, empowering local talent and adopting advanced technologies. Through our unwavering commitment to quality and safety, we aim to set new industry benchmarks and become a trusted partner in shaping a brighter future for Saudi Arabia.",
+      "attribution": "Chairman, ZIMAM Electrical Company"
+    },
+    "visionMission": {
+      "vision": {
+        "title": "Vision",
+        "text": "To be a leading contracting company in Saudi Arabia, recognized for excellence, innovation and sustainability."
+      },
+      "mission": {
+        "title": "Mission",
+        "text": "To deliver reliable, high-quality and cost-effective Electrical, Mechanical, Plumbing, HVAC, Fire Fighting, ELV, Telecom and Civil solutions for infrastructure, industrial, commercial and residential projects — committed to quality, safety, efficiency and customer satisfaction, and contributing to the goals of Saudi Vision 2030."
+      }
+    },
+    "values": {
+      "label": "Our Core",
+      "title": "Values",
+      "items": {
+        "safety": "Safety",
+        "quality": "Quality",
+        "integrity": "Integrity",
+        "commitment": "Commitment"
+      }
+    },
+    "registration": {
+      "title": "Company Registration",
+      "cr": "CR",
+      "vat": "VAT",
+      "location": "Riyadh, KSA"
+    }
+  },
+  "servicesPage": {
+    "label": "Our",
+    "title": "Divisions",
+    "intro": "Electrical, ELV & Telecom, Mechanical and Civil works delivered by one accountable team, from installation through testing, commissioning and maintenance."
+  },
+  "divisionPage": {
+    "bannerLabel": "Division - {number}",
+    "keyLabel": "Our Key",
+    "keyTitle": "Services",
+    "relatedLabel": "Related",
+    "relatedTitle": "Projects",
+    "ctaTitle": "Discuss your {division} requirements"
+  },
+  "projectsPage": {
+    "filtersLabel": "Filter projects",
+    "filters": {
+      "all": "All",
+      "electrical": "Electrical",
+      "mechanical": "Mechanical",
+      "mep": "MEP",
+      "civil": "Civil"
+    },
+    "empty": "No projects in this category yet.",
+    "viewDetails": "View details: {title}",
+    "modal": {
+      "close": "Close",
+      "scope": "Scope of work",
+      "location": "Location",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}",
+      "photos": "Project photos"
+    }
+  },
+  "clientsPage": {
+    "intro": "We are proud to work with leading developers, contractors and organizations across the Kingdom."
+  },
+  "galleryPage": {
+    "filtersLabel": "Filter photos",
+    "filters": {
+      "all": "All",
+      "electrical": "Electrical",
+      "elv-telecom": "ELV & Telecom",
+      "mechanical": "Mechanical",
+      "civil": "Civil"
+    },
+    "alt": {
+      "electrical": "Electrical installation works on a ZIMAM site",
+      "elv-telecom": "Telecom and ELV works on a ZIMAM site",
+      "mechanical": "Mechanical, HVAC and pipework installation on a ZIMAM site",
+      "civil": "Civil and structural works on a ZIMAM site"
+    },
+    "openPhoto": "Open photo {n}",
+    "lightbox": {
+      "label": "Photo viewer",
+      "close": "Close",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
+    }
+  },
+  "quality": {
+    "wheel": {
+      "ariaLabel": "Quality policies",
+      "centerTop": "Quality",
+      "centerBottom": "Policies"
+    },
+    "policies": {
+      "label": "Our",
+      "title": "Policies",
+      "safety": {
+        "title": "Safety First Policy",
+        "text": "Our company is committed to maintaining a 'Safety First' policy to ensure the well-being of all employees, subcontractors and clients. We prioritize safety by adhering to strict safety protocols, providing ongoing training and conducting regular safety inspections. Every individual on site is responsible for following safety guidelines and reporting potential hazards. By fostering a culture of safety, we aim to prevent accidents, protect health and promote a safe working environment for everyone involved. Safety is not just a priority; it's a core value in every aspect of our operations."
+      },
+      "quality": {
+        "title": "Quality Policy",
+        "text": "Our Quality Policy is centered on delivering the highest standards of excellence in every project we undertake. We are committed to ensuring that all work is completed to meet or exceed customer expectations, industry regulations and safety requirements. By maintaining a culture of continuous improvement, we focus on rigorous quality control, attention to detail and the use of the best materials and practices. Our goal is to achieve consistent, reliable results that not only satisfy our clients but also enhance the reputation and long-term success of our company. Quality is at the heart of everything we do."
+      },
+      "hr": {
+        "title": "HR Policy",
+        "text": "Our HR policy is designed to foster a positive, respectful and inclusive work environment where all employees are valued and supported. We focus on fair recruitment, equal opportunity and employee development, ensuring a culture of continuous growth and professional advancement. Our policy emphasizes clear communication, work-life balance and the well-being of our team members. We are committed to providing a safe, respectful and motivating workplace where everyone can thrive and contribute to the company's success."
+      },
+      "training": {
+        "title": "Technical Team Development",
+        "text": "Our Technical Training program is designed to equip employees with the skills and knowledge necessary to excel in their roles and meet industry standards. We provide hands-on training, workshops and access to the latest technologies, ensuring that our team is always up to date with the best practices and innovations in the field. Continuous learning is encouraged, with opportunities for employees to enhance their technical expertise, improve job performance and advance in their careers. By investing in technical training, we ensure high-quality results, safety and operational efficiency across all projects."
+      }
+    },
+    "certifications": {
+      "label": "Our",
+      "title": "Certifications",
+      "placeholder": "Certificate to be added"
+    }
+  },
+  "contact": {
+    "hoursValue": "Sunday – Thursday, 8:00 AM – 6:00 PM",
+    "mapTitle": "Zimam Electrical Company location",
+    "form": {
+      "title": "Send us a message",
+      "required": "required",
+      "fields": {
+        "name": "Full name",
+        "company": "Company",
+        "email": "Email",
+        "phone": "Phone",
+        "service": "Service required",
+        "location": "Project location (city)",
+        "projectType": "Project type",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your full name",
+        "company": "Your company name",
+        "email": "name@company.com",
+        "phone": "+966 5X XXX XXXX",
+        "service": "Select a service",
+        "projectType": "Select a project type",
+        "location": "e.g. Riyadh",
+        "message": "Tell us about your project…"
+      },
+      "services": {
+        "electrical": "Electrical",
+        "elv": "ELV & Telecom",
+        "mechanicalHvac": "Mechanical – HVAC",
+        "mechanicalFire": "Mechanical – Fire Fighting",
+        "mechanicalPlumbing": "Mechanical – Plumbing",
+        "civil": "Civil",
+        "multiple": "Multiple / Full MEP"
+      },
+      "projectTypes": {
+        "commercial": "Commercial",
+        "industrial": "Industrial",
+        "residential": "Residential",
+        "infrastructure": "Infrastructure",
+        "government": "Government",
+        "other": "Other"
+      },
+      "errors": {
+        "name": "Please enter your full name.",
+        "emailRequired": "Please enter your email address.",
+        "emailInvalid": "Please enter a valid email address.",
+        "phoneRequired": "Please enter your phone number.",
+        "phoneInvalid": "Please enter a valid Saudi phone number, e.g. 05X XXX XXXX or +966 5X XXX XXXX.",
+        "message": "Please tell us about your project."
+      },
+      "summary": "Please fix the highlighted fields.",
+      "submit": "Send Request",
+      "sending": "Sending…",
+      "success": {
+        "title": "Thank you, your request has been sent.",
+        "text": "Our engineering team will review your requirements and get back to you.",
+        "again": "Send another request"
+      },
+      "failure": "Sorry, we could not send your request. Please try again or contact us by phone or WhatsApp.",
+      "notConfigured": "The form is not available right now. Please contact us by phone, email or WhatsApp."
+    },
+    "infoTitle": "Contact information",
+    "findUsTitle": "Find us",
+    "whatsappLabel": "Chat on WhatsApp: {number}"
+  }
+}
