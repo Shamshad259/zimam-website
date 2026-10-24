@@ -73,8 +73,7 @@
   "topBar": {
     "language": "Language",
     "english": "EN",
-    "arabic": "العربية",
-    "arabicSoon": "Arabic version coming soon"
+    "arabic": "العربية"
   },
   "nav": {
     "label": "Main navigation",
@@ -455,7 +454,7 @@
   },
   "projectsPage": {
     "filtersLabel": "Filter projects",
-  "listHeading": "Our projects",
+    "listHeading": "Our projects",
     "filters": {
       "all": "All",
       "electrical": "Electrical",

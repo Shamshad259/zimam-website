@@ -6,16 +6,19 @@ import {
   siteUrl,
 } from "@/data/site";
 
+export const companyNameEn = "ZIMAM Electrical Company";
+
 export const organizationId = `${siteUrl}/#organization`;
 
 /** Organization + LocalBusiness (GeneralContractor). Built from src/data/site.ts only; no geo, ratings or reviews. */
-export function organizationJsonLd(name: string) {
+/** `name` is the localized company name; the other language goes in alternateName. */
+export function organizationJsonLd(name: string, locale: string) {
   return {
     "@context": "https://schema.org",
     "@type": ["Organization", "GeneralContractor"],
     "@id": organizationId,
     name,
-    alternateName: companyNameAr,
+    alternateName: locale === "ar" ? companyNameEn : companyNameAr,
     url: siteUrl,
     logo: `${siteUrl}/images/logo/zimam-logo.svg`,
     image: `${siteUrl}/og/zimam-og.png`,

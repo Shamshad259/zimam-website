@@ -9,6 +9,11 @@ const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR || ".next",
   cacheComponents: true,
   partialPrefetching: true,
+  // `npm run verify` caps build workers (NEXT_BUILD_CPUS) so low-RAM PCs do not run out of memory.
+  experimental: {
+    globalNotFound: true,
+    ...(process.env.NEXT_BUILD_CPUS && { cpus: Number(process.env.NEXT_BUILD_CPUS) }),
+  },
   turbopack: {
     root: path.resolve(process.cwd()),
     rules: {

@@ -123,3 +123,17 @@ html[dir="rtl"] .marquee-track {
 :lang(ar) {
   font-family: var(--font-arabic), "Segoe UI", sans-serif;
 }
+
+/* ---- Arabic typography ----
+   Letter-spacing breaks Arabic letter joining and uppercase is meaningless, so reset both
+   everywhere; give Arabic a slightly taller line-height than the Latin tight leading. */
+html[lang="ar"] body * {
+  letter-spacing: normal !important;
+  text-transform: none !important;
+}
+html[lang="ar"] :is(p, li, dd, blockquote, label, figcaption) {
+  line-height: 1.85;
+}
+html[lang="ar"] :is(h1, h2, h3, h4) {
+  line-height: 1.45;
+}

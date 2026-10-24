@@ -1,10 +1,7 @@
 import { defineRouting } from "next-intl/routing";
 
-// Phase 1 is English-only. Arabic ("ar") is wired for RTL (see `localeDirection`)
-// but is switched on in the Arabic phase by adding it to `locales` and creating
-// messages/ar.json.
 export const routing = defineRouting({
-  locales: ["en"],
+  locales: ["en", "ar"],
   defaultLocale: "en",
   localePrefix: "always",
 });

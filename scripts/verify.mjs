@@ -16,6 +16,11 @@ const nextBin = createRequire(import.meta.url).resolve("next/dist/bin/next");
 const args = mode === "start" ? [nextBin, "start", "-p", process.env.PORT ?? "3100"] : [nextBin, "build"];
 const result = spawnSync(process.execPath, args, {
   stdio: "inherit",
-  env: { ...process.env, NEXT_DIST_DIR: ".next-verify" },
+  env: {
+    ...process.env,
+    NEXT_DIST_DIR: ".next-verify",
+    // Few build workers: each one holds a copy of the app in memory (this PC has ~8 GB RAM).
+    NEXT_BUILD_CPUS: process.env.NEXT_BUILD_CPUS ?? "2",
+  },
 });
 process.exit(result.status ?? 1);

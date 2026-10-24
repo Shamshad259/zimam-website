@@ -540,8 +540,8 @@ full-width map section, or CR/VAT numbers (those stay in the footer only).
 - Keep services, projects and clients in separate editable data files.
 
 Implementation (SEO phase, live at https://zelcosa.com):
-- `siteUrl` and `readyLocales` live in src/data/site.ts. `readyLocales` is the Arabic switch:
-  locales not listed are noindex/nofollow and left out of sitemap and hreflang. Add "ar" to go live.
+- `siteUrl` and `readyLocales` live in src/data/site.ts. `readyLocales` (now ["en", "ar"]) decides which locales
+  are indexable and in sitemap/hreflang; others are noindex/nofollow.
 - Metadata per page from messages `meta.*` via src/lib/metadata.ts; canonical + hreflang (+ x-default
   to /en), Open Graph and Twitter summary_large_image on every page; 404 is noindex.
 - Share image: public/og/zimam-og.png (1200x630, generated from scripts/og/).
@@ -556,3 +556,7 @@ Implementation (SEO phase, live at https://zelcosa.com):
 Start with: design system, header, footer, WhatsApp button, and the complete Home
 page in English. Then build the remaining pages, then add Arabic/RTL. Show me the Home
 page first for approval before continuing.
+
+Arabic phase (live): messages/ar.json mirrors en.json; glossary in docs/ar-glossary.md; full RTL with logical
+properties; language switch in the top bar and mobile menu keeps the current page; Arabic OG locale ar_SA;
+unknown URLs return a real 404 via src/app/global-not-found.tsx (bilingual branded page).

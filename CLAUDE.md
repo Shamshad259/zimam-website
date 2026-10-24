@@ -84,10 +84,9 @@
 
 - Production origin is `https://zelcosa.com` (`siteUrl` in `src/data/site.ts`). Canonicals, OG urls,
   sitemap and JSON-LD always use it (via `metadataBase`), even on vercel.app copies.
-- **`readyLocales` in `src/data/site.ts` is the Arabic switch.** Only listed locales are indexable
-  and appear in the sitemap and hreflang; any other locale gets robots noindex/nofollow.
-  To launch Arabic: add `"ar"` to `readyLocales` (and to `routing.locales`, with `messages/ar.json`
-  including the `meta` namespace and `site.ts` address `ar`).
+- **`readyLocales` in `src/data/site.ts` is the language switch for search engines** (currently `["en", "ar"]`).
+  Only listed locales are indexable and appear in the sitemap and hreflang; any other locale gets robots
+  noindex/nofollow. A new locale needs: `routing.locales`, `messages/<l>.json` (incl. `meta`), an address in `site.ts`.
 - Page metadata: every page's `generateMetadata` calls `pageMetadata(locale, key, path)`
   (`src/lib/metadata.ts`), text from `messages/*.json` `meta.<key>`. Titles are short (the layout
   template adds " | ZIMAM Electrical Company"); descriptions ~150-160 chars, factual, include
@@ -98,3 +97,18 @@
   ratings, reviews or invented facts.
 - Share image: static `public/og/zimam-og.png` (1200x630), regenerate with `scripts/og/`.
 - One h1 per page, no skipped heading levels, decorative images `alt=""`, content images meaningful alt.
+
+## Arabic / RTL rules
+
+- Arabic text lives in `messages/ar.json` (same keys as en.json; keep them in sync). Terms follow
+  `docs/ar-glossary.md`. Data files only hold message keys, so there is no `{en, ar}` text in `src/data/`.
+- Proper names (clients, projects, partners) stay in English unless the company's own logo shows an
+  official Arabic name (HAPCO, Multicoat, DMCC). Never invent Arabic names.
+- Phone, CR, VAT, email: Western digits, always LTR (`<bdi dir="ltr">` or `dir="ltr"` on inputs).
+- Arabic CSS in globals.css resets letter-spacing/uppercase for `html[lang="ar"]`; headings and body use
+  IBM Plex Sans Arabic. Use logical Tailwind classes; mirror icons with `rtl:-scale-x-100`.
+- Unknown URLs: `src/app/global-not-found.tsx` (experimental `globalNotFound`) returns a real 404 with a
+  bilingual branded page. Do NOT add a `[...rest]` catch-all: it streams with status 200.
+- `usePathname()` in a client component needs a `<Suspense>` boundary above it (see TopBar).
+- Low-RAM PC: `npm run verify` limits build workers (`NEXT_BUILD_CPUS=2`); run builds with
+  NODE_OPTIONS=--max-old-space-size=3072 and one heavy process at a time.

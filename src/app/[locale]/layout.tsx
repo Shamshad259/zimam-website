@@ -26,7 +26,7 @@ const montserrat = Montserrat({
 });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 const plexArabic = IBM_Plex_Sans_Arabic({
-  subsets: ["arabic"],
+  subsets: ["arabic", "latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-arabic",
   display: "swap",
@@ -71,7 +71,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[locale]">)
       className={`${montserrat.variable} ${inter.variable} ${plexArabic.variable}`}
     >
       <body>
-        <JsonLd data={organizationJsonLd(t("companyName"))} />
+        <JsonLd data={organizationJsonLd(t("companyName"), locale)} />
         <NextIntlClientProvider locale={locale} messages={messages}>
           <MotionProvider>
             <a

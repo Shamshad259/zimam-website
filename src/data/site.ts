@@ -8,7 +8,7 @@ const mobiles = [
 
 const address: Record<string, string> = {
   en: "Floor 2, RHGA7630, King Abdulaziz Rd, Al Murooj, Riyadh 12282, Kingdom of Saudi Arabia",
-  // TODO: add `ar` in the Arabic phase (falls back to English until then).
+  ar: "الدور الثاني، RHGA7630، طريق الملك عبدالعزيز، حي المروج، الرياض 12282، المملكة العربية السعودية",
 };
 
 export const site = {
@@ -42,9 +42,9 @@ export const siteUrl = "https://zelcosa.com";
 /**
  * Locales that are live and indexable. Locales not listed here get robots
  * noindex/nofollow and are left out of the sitemap and hreflang. Add "ar" here
- * when the Arabic content is ready (one-line switch).
+ * when a new locale is ready (one-line switch). Arabic went live in the Arabic phase.
  */
-export const readyLocales: readonly string[] = ["en"];
+export const readyLocales: readonly string[] = ["en", "ar"];
 
 /** Structured address for JSON-LD (same location as `address`). */
 export const addressParts = {
