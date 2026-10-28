@@ -14,6 +14,7 @@ export interface Client {
 // NOTE: elite.png (white wordmark for dark backgrounds) is kept in
 // public/images/clients/ but is intentionally not used.
 export const clients: Client[] = [
+  { id: "femco", src: "/images/clients/femco.png", width: 968, height: 867 },
   { id: "seven", src: "/images/clients/seven.png", width: 679, height: 442, scale: 1.1 },
   { id: "elite", src: "/images/clients/elite-light.png", width: 707, height: 367 },
   { id: "hapco", src: "/images/clients/hapco.webp", width: 596, height: 600, scale: 0.9 },

@@ -23,6 +23,7 @@ const logos = [
   ["DMCC.png", "dmcc.png"],
   ["acme-networking-logo.png", "acme.png"],
   ["Alazaem.png", "al-azaem.png"],
+  ["femco.png", "femco.png"],
 ];
 
 const ALPHA_MIN = 16; // below this a pixel counts as transparent

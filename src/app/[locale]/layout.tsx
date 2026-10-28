@@ -68,6 +68,7 @@ export default async function RootLayout({ children }: LayoutProps<"/[locale]">)
     <html
       lang={locale}
       dir={localeDirection(locale)}
+      data-scroll-behavior="smooth"
       className={`${montserrat.variable} ${inter.variable} ${plexArabic.variable}`}
     >
       <body>

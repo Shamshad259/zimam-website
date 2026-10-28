@@ -16,7 +16,7 @@ numbers, testimonials, team member names or project details that are not provide
 
 - Zimam logo: use in header, footer, favicon and social share image. Never redraw,
   recolor or distort it. Derive the entire color theme from it.
-- Client logos (11 files): use exactly as uploaded on the Clients section/page.
+- Client logos (12 files): use exactly as uploaded on the Clients section/page.
   Never regenerate, redraw or approximate any client logo.
 - Company profile PDF: reference for tone, layout ideas and content. Do not copy its
   stock photos of people.
@@ -390,17 +390,18 @@ organizations across the Kingdom."
 Responsive logo grid (white cards, light border, logos centered, greyscale → color
 on hover, client name under each logo as caption):
 
-1. SEVEN — Saudi Entertainment Ventures
-2. Elite Infrastructure & Technology
-3. HAPCO
-4. Kidzink
-5. NHC — Noura Hamdan Al Subaie General Contracting Co.
-6. Multicoat
-7. Shapoorji Pallonji
-8. Concrete Plus
-9. DMCC — Doha Modern Contracting Company
-10. ACME Network Services (Telecommunication & Energy)
-11. Al Azaem
+1. FEMCO (Arabic "فيمكو" on /ar, as printed on its logo)
+2. SEVEN — Saudi Entertainment Ventures
+3. Elite Infrastructure & Technology
+4. HAPCO
+5. Kidzink
+6. NHC — Noura Hamdan Al Subaie General Contracting Co.
+7. Multicoat
+8. Shapoorji Pallonji
+9. Concrete Plus
+10. DMCC — Doha Modern Contracting Company
+11. ACME Network Services (Telecommunication & Energy)
+12. Al Azaem
     Use the uploaded logo files only. Keep logos in their original aspect ratio with
     consistent max height.
 
