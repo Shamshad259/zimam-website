@@ -1,4 +1,5 @@
 import { ChairmanQuote } from "@/components/home/ChairmanQuote";
+import { CertifiedStrip } from "@/components/home/CertifiedStrip";
 import { ClientsStrip } from "@/components/home/ClientsStrip";
 import { DivisionsSection } from "@/components/home/DivisionsSection";
 import { FeaturedProjects } from "@/components/home/FeaturedProjects";
@@ -22,6 +23,7 @@ export default function HomePage() {
       <SectorsSection />
       <FeaturedProjects />
       <WhyChoose />
+      <CertifiedStrip />
       <ClientsStrip />
       <ChairmanQuote />
     </>

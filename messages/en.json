@@ -7,7 +7,7 @@
     },
     "home": {
       "title": "ZIMAM Electrical Company | MEP, ELV & Civil Contractor in Riyadh",
-      "description": "ZIMAM Electrical Company (ZELCOSA), Riyadh, Saudi Arabia: Electrical, Mechanical, Plumbing, ELV, Telecom and Civil contracting delivered across the Kingdom."
+      "description": "ZIMAM Electrical Company (ZELCOSA), Riyadh, Saudi Arabia: ISO 9001, 14001 and 45001 certified Electrical, Mechanical, Plumbing, ELV, Telecom and Civil contracting across the Kingdom."
     },
     "about": {
       "title": "About Us",
@@ -49,7 +49,7 @@
     },
     "quality": {
       "title": "Quality & HSE",
-      "description": "ZIMAM Electrical Company's Safety First, Quality, HR and Technical Team Development policies, applied on every site from Riyadh, Saudi Arabia."
+      "description": "ZIMAM Electrical Company's Safety First, Quality, HR and Technical Team Development policies and ISO 9001, 14001 and 45001 certifications, applied on every site from Riyadh, Saudi Arabia."
     },
     "contact": {
       "title": "Contact & Request a Quote",
@@ -276,9 +276,15 @@
     "contactUs": "Contact Us",
     "viewOnMap": "View on map",
     "whatsapp": "WhatsApp",
+    "certified": "ISO 9001 · 14001 · 45001 certified",
     "rights": "© 2026 ZIMAM Electrical Company. All rights reserved."
   },
   "home": {
+    "certified": {
+      "label": "Certifications",
+      "suffix": "Certified",
+      "link": "View certificates"
+    },
     "hero": {
       "label": "Riyadh • Kingdom of Saudi Arabia",
       "title": "Engineering Excellence in Modern Infrastructure",
@@ -530,7 +536,31 @@
     "certifications": {
       "label": "Our",
       "title": "Certifications",
-      "placeholder": "Certificate to be added"
+      "view": "View the {standard} certificate",
+      "viewHint": "View certificate",
+      "dialogLabel": "{standard} certificate",
+      "close": "Close",
+      "numberLabel": "Certificate No.",
+      "validUntil": "Valid until 16 Oct 2029",
+      "scopeLabel": "Scope",
+      "scope": "Provision of constructions, civil infrastructure works, telecom & IT infrastructure installation and MEP works.",
+      "certifiedBy": "Certified by QRO Certification LLP (accredited by EGAC, IAF MLA member).",
+      "verify": "Verify",
+      "newTab": "(opens in a new tab)",
+      "items": {
+        "iso9001": {
+          "name": "Quality Management System",
+          "alt": "ISO 9001:2015 Quality Management System certificate issued to ZIMAM Electrical Company by QRO Certification LLP"
+        },
+        "iso14001": {
+          "name": "Environmental Management System",
+          "alt": "ISO 14001:2015 Environmental Management System certificate issued to ZIMAM Electrical Company by QRO Certification LLP"
+        },
+        "iso45001": {
+          "name": "Occupational Health and Safety Management System",
+          "alt": "ISO 45001:2018 Occupational Health and Safety Management System certificate issued to ZIMAM Electrical Company by QRO Certification LLP"
+        }
+      }
     }
   },
   "contact": {

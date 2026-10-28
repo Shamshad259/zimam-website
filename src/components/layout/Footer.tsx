@@ -35,7 +35,10 @@ export function Footer() {
         <div>
           <Logo variant="white" className="h-11" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/75">{t("description")}</p>
-          <p className="mt-5 text-xs text-white/60">
+          <p className="mt-5 text-xs font-semibold text-white/80">
+            {t("certified")}
+          </p>
+          <p className="mt-2 text-xs text-white/60">
             {t("crLabel")}: <bdi dir="ltr">{site.cr}</bdi>
             <br />
             {t("vatLabel")}: <bdi dir="ltr">{site.vat}</bdi>

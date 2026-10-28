@@ -463,8 +463,14 @@ technical expertise, improve job performance and advance in their careers. By
 investing in technical training, we ensure high-quality results, safety and
 operational efficiency across all projects."
 
-Add an empty "Certifications" section with placeholder cards and a code comment
-"ADD CERTIFICATES HERE" — do not invent certificate names.
+Certifications section (FILLED): three ISO certificates (9001:2015, 14001:2015,
+45001:2018; issued by QRO Certification LLP, certified 17 Oct 2026, valid until
+16 Oct 2029) as cards with thumbnail, number and an accessible full-size lightbox.
+Data in src/data/certifications.ts, text in messages (quality.certifications), images
+in public/images/certificates/ (WebP made from assets/certificates, which is git-ignored).
+A text-only "ISO 9001 · ISO 14001 · ISO 45001 Certified" strip on Home links here, and
+the footer has a one-line mention. No ISO/QRO/EGAC/IAF logos are used outside the
+certificate images themselves.
 
 ---
 

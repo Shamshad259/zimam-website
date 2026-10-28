@@ -13,7 +13,7 @@ interface DiagonalHeroProps {
   bottom?: ReactNode;
 }
 
-/** Full-bleed image with a diagonal navy shape cutting across it (mirrors in RTL). */
+/** Full-bleed image with a diagonal navy shape cutting across it (the layout mirrors in RTL; the photo itself is never flipped). */
 export function DiagonalHero({
   image,
   alt,
@@ -25,7 +25,7 @@ export function DiagonalHero({
   return (
     <section className={cn("relative isolate flex flex-col overflow-hidden bg-navy text-white", className)}>
       {/* On desktop the photo sits in the end 75% so its focal point clears the navy wedge. */}
-      <div className="absolute inset-y-0 inset-e-0 -z-30 w-full lg:w-3/4 rtl:-scale-x-100">
+      <div className="absolute inset-y-0 inset-e-0 -z-30 w-full lg:w-3/4">
         <Image
           src={image}
           alt={alt}
